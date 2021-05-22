@@ -968,7 +968,7 @@ dependencies = [
 [[package]]
 name = "wagyu-model"
 version = "0.6.3"
-source = "git+https://github.com/terryhash/wagyu-model.git?branch=master#dde7c79c9dad4a0899fe9acb38e29f9aeec24bd1"
+source = "git+https://github.com/mwcproject/wagyu-model?branch=master#dde7c79c9dad4a0899fe9acb38e29f9aeec24bd1"
 dependencies = [
  "base58",
  "base58-monero",

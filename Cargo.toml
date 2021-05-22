@@ -17,7 +17,7 @@ license = "MIT/Apache-2.0"
 edition = "2018"
 
 [dependencies]
-wagyu-model = { git = "https://github.com/terryhash/wagyu-model.git", branch = "master" }
+wagyu-model = { git = "https://github.com/mwcproject/wagyu-model", branch = "master" }
 
 base58 = { version = "0.1" }
 bitvec = { version = "0.17.4" }
