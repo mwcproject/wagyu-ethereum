@@ -1,5 +1,5 @@
 use crate::network::EthereumNetwork;
-use wagyu_model::derivation_path::{ChildIndex, DerivationPath, DerivationPathError};
+use mwc_wagyu_model::derivation_path::{ChildIndex, DerivationPath, DerivationPathError};
 
 use std::convert::TryFrom;
 use std::{fmt, marker::PhantomData, str::FromStr};
@@ -179,7 +179,7 @@ impl<N: EthereumNetwork> fmt::Display for EthereumDerivationPath<N> {
 mod tests {
     use super::*;
     use crate::network::*;
-    use wagyu_model::derivation_path::{ChildIndex, DerivationPathError};
+    use mwc_wagyu_model::derivation_path::{ChildIndex, DerivationPathError};
 
     use std::convert::TryInto;
     use std::str::FromStr;

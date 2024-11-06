@@ -1,7 +1,7 @@
 use crate::address::EthereumAddress;
 use crate::format::EthereumFormat;
 use crate::private_key::EthereumPrivateKey;
-use wagyu_model::{Address, AddressError, PublicKey, PublicKeyError};
+use mwc_wagyu_model::{Address, AddressError, PublicKey, PublicKeyError};
 
 use secp256k1;
 use std::{fmt, fmt::Display, str::FromStr};

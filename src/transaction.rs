@@ -4,7 +4,7 @@ use crate::format::EthereumFormat;
 use crate::network::EthereumNetwork;
 use crate::private_key::EthereumPrivateKey;
 use crate::public_key::EthereumPublicKey;
-use wagyu_model::{PrivateKey, PublicKey, Transaction, TransactionError, TransactionId};
+use mwc_wagyu_model::{PrivateKey, PublicKey, Transaction, TransactionError, TransactionId};
 
 use ethereum_types::U256;
 use rlp::{decode_list, RlpStream};
@@ -291,7 +291,7 @@ mod tests {
     use super::*;
     use crate::network::EthereumNetwork;
     use crate::{Goerli, Kovan, Mainnet, Rinkeby, Ropsten};
-    use wagyu_model::{PrivateKey, Transaction};
+    use mwc_wagyu_model::{PrivateKey, Transaction};
 
     pub struct TransactionTestCase {
         pub nonce: &'static str,

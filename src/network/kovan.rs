@@ -1,5 +1,5 @@
 use crate::network::EthereumNetwork;
-use wagyu_model::{ChildIndex, Network, NetworkError};
+use mwc_wagyu_model::{ChildIndex, Network, NetworkError};
 
 use serde::Serialize;
 use std::{fmt, str::FromStr};

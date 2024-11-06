@@ -1,4 +1,4 @@
-use wagyu_model::{Amount, AmountError};
+use mwc_wagyu_model::{Amount, AmountError};
 
 use ethereum_types::U256;
 use std::fmt;

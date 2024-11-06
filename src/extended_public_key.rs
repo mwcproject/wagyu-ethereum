@@ -4,7 +4,7 @@ use crate::extended_private_key::EthereumExtendedPrivateKey;
 use crate::format::EthereumFormat;
 use crate::network::EthereumNetwork;
 use crate::public_key::EthereumPublicKey;
-use wagyu_model::{
+use mwc_wagyu_model::{
     crypto::{checksum, hash160},
     AddressError, ChildIndex, DerivationPath, ExtendedPrivateKey, ExtendedPublicKey, ExtendedPublicKeyError, PublicKey,
 };
@@ -181,7 +181,7 @@ impl<N: EthereumNetwork> fmt::Display for EthereumExtendedPublicKey<N> {
 mod tests {
     use super::*;
     use crate::network::*;
-    use wagyu_model::extended_private_key::ExtendedPrivateKey;
+    use mwc_wagyu_model::extended_private_key::ExtendedPrivateKey;
 
     use hex;
     use std::convert::TryInto;

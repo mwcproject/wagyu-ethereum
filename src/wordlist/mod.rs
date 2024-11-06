@@ -1,4 +1,4 @@
-use wagyu_model::wordlist::{Wordlist, WordlistError};
+use mwc_wagyu_model::wordlist::{Wordlist, WordlistError};
 
 pub mod chinese_simplified;
 pub use self::chinese_simplified::*;

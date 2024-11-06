@@ -1,4 +1,4 @@
-use wagyu_model::Format;
+use mwc_wagyu_model::Format;
 
 use serde::Serialize;
 use std::fmt;
