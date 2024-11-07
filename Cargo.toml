@@ -1,5 +1,5 @@
 [package]
-name = "wagyu-ethereum"
+name = "mwc-wagyu-ethereum"
 version = "0.6.3"
 authors = [
     "Collin Chin",
@@ -8,8 +8,8 @@ authors = [
     "Howard Wu"
 ]
 description = "A library for generating Ethereum wallets"
-homepage = "https://github.com/AleoHQ/wagyu"
-repository = "https://github.com/AleoHQ/wagyu/tree/v0.6.3/ethereum"
+homepage = "https://github.com/mwcproject/wagyu-ethereum"
+repository = "https://github.com/mwcproject/wagyu-ethereum"
 categories = ["command-line-utilities", "cryptocurrency"]
 keywords = ["blockchain", "crypto", "cryptocurrency", "ethereum", "wallet"]
 readme = "README.md"

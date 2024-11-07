@@ -444,6 +444,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "mwc-wagyu-ethereum"
+version = "0.6.3"
+dependencies = [
+ "base58",
+ "bitvec",
+ "ethereum-types",
+ "hex",
+ "hmac",
+ "libsecp256k1",
+ "mwc-wagyu-model",
+ "pbkdf2",
+ "rand 0.6.5",
+ "rand_xorshift 0.2.0",
+ "regex",
+ "rlp",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tiny-keccak 1.5.0",
+]
+
+[[package]]
 name = "mwc-wagyu-model"
 version = "0.6.3"
 source = "git+https://github.com/mwcproject/wagyu-model?branch=master#09d3985ad5338ef230f0d2cf33540d8912d92707"
@@ -968,28 +990,6 @@ name = "unicode-xid"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564"
-
-[[package]]
-name = "wagyu-ethereum"
-version = "0.6.3"
-dependencies = [
- "base58",
- "bitvec",
- "ethereum-types",
- "hex",
- "hmac",
- "libsecp256k1",
- "mwc-wagyu-model",
- "pbkdf2",
- "rand 0.6.5",
- "rand_xorshift 0.2.0",
- "regex",
- "rlp",
- "serde",
- "serde_json",
- "sha2",
- "tiny-keccak 1.5.0",
-]
 
 [[package]]
 name = "winapi"
